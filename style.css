@@ -1,0 +1,61 @@
+.batas{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+}
+
+footer{
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	background-color: #333;
+	padding-top: 25px;
+}
+
+footer p{
+	font-size: 0,9em;
+	color: #aaa; 
+}
+
+footer p svg{
+	color: red;
+
+}
+
+.konten {
+	padding-bottom: 50px;
+}
+
+.konten h2{
+	padding-top: 20px;
+}
+
+.konten hr{
+	width: 200px;
+	border-top: 4px solid black;
+}
+
+.tentang {
+	background-image: url(img/p2.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+}
+
+.tentang hr{
+	width: 200px;
+	border-top: 4px solid white;
+}
+
+.contact{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contact h3{
+	padding-bottom: 20px;
+}
+
