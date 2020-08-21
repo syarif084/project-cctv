@@ -1,9 +1,39 @@
-.batas{
-	width: 100%;
-	height: 40px;
-	background-color: white;
+/*body*/
+body{
+	background-color: lightgrey;
 }
 
+/*navbar*/
+.navbar{
+	background-color: #EEEEEE;
+}
+.svgatas svg{
+	margin-right: 20px;
+	margin-left: 20px; 
+}
+
+/*marque*/
+.batas{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+.batas p{
+	margin-top: 7px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+}
+
+.img-caption p{
+	color: white;
+}
+.img-caption h3{
+	color: white;
+}
+
+/*footer*/
 footer{
 	bottom: 0;
 	width: 100%;
@@ -11,51 +41,64 @@ footer{
 	background-color: #333;
 	padding-top: 25px;
 }
-
 footer p{
 	font-size: 0,9em;
 	color: #aaa; 
 }
-
 footer p svg{
 	color: red;
-
 }
 
+
+/*konten*/
+.konten svg{
+	color: black;
+}
 .konten {
 	padding-bottom: 50px;
 }
-
 .konten h2{
 	padding-top: 20px;
 }
-
 .konten hr{
 	width: 200px;
 	border-top: 4px solid black;
 }
-
-.tentang {
+.tentang{
 	background-image: url(img/p2.jpg);
 	background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-attachment: fixed;
 }
-
 .tentang hr{
 	width: 200px;
 	border-top: 4px solid white;
 }
-
 .contact{
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background-color: #EEEEEE;
 }
-
 .contact h3{
 	padding-bottom: 20px;
 }
 
+/*product*/
+.product{
+	background-color: white;
+}
+.product hr{
+	border-top: 4px solid black;
+	width: 300px;
+	opacity: 50%;
+}
+.card-group{
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+.product h2{
+	padding-top: 50px;
+}
